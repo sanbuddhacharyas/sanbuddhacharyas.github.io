@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Agro-Doctor
-description: a project with a background image
+title: Stereo Matching and depth prediction using Siamese network
+description: a project with no image
 img:
-importance: 3
-category: Competition
+importance: 4
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.

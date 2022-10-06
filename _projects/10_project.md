@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Agro-Doctor
-description: a project with a background image
+title: Music Recommendation
+description: a project with no image
 img:
-importance: 3
-category: Competition
+importance: 4
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

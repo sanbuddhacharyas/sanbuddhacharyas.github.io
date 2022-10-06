@@ -1,80 +1,68 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title:  Video to Online Shopping
+description: Matched the clothes from MoJ, TikTok videos, and movies to similar items in an online shop (Flipkart and Amazon). Similar (category, color, pattern) product ads as video items were recommended from an online shop.
+img:
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Most people wants to buy the same product that they see in the movies and tik-tok. How do they search those product in e-Commerce site? Obviously, typing all the requirements in the search bar, Example: <em> "red shirt with logos in the middle", </em> with this you end up with different product. Only the text search available in the e-Commerce lowers the purchase rate since most of the user don't find what they actually searching for. But with the advancement of deep learning and computer vision automatic searching has been made easier. <em>Video to Online Shopping</em> automatically detects the central character in the video and automatically search for the product in the database. No any hassel to search, type, and open e-commerse site since the product will be available next to you in the video.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<b>Technologies used:</b> Convolutional Neural Network (CNN), Object Detection, Human Tracking, Siamese Network, Pose
+estimation, K-Means, XGBoost, Python, PyTorch, TensorFlow, Open-CV, NumPy, SciPy.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<center>
+<p style="font-size:20px">I am open to integrate <em>"Video to Online shopping"</em> into your business.<b> </b></p>
+</center>
 
+<center>
+<p style="font-size:20px"> <b>Our Product used my MoJ App. </b></p>
+</center>
+
+<div class="myvideo">
+   <center>
+   <video  style="display:block; width:35%; height:auto;" autoplay controls loop="loop">
+       <source src="https://drive.google.com/uc?export=download&id=1xHyM1azTvdIVtSgsiyrCpc6I4tyl2GkQ" type="video/mp4" />
+
+   </video>
+   </center>
+</div>
+<br />
+
+<b>Some outputs:</b>
+<br />
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/video_to_online_shopping/1.png" title="kurtha" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/video_to_online_shopping/2.png" title="kurtha" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/video_to_online_shopping/3.png" title="kurtha" class="img-fluid rounded z-depth-1" %}
+</div>
+<div class="caption">
+    <b>Kurtha's flipkart ad recommended for video.</b>
+</div>
+
+<br />
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/video_to_online_shopping/5.png" title="kurtha" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/video_to_online_shopping/6.png" title="kurtha" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/video_to_online_shopping/4.png" title="kurtha" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    <b>T-shirt ad recommended for videos.</b>
 </div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}

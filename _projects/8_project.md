@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Agro-Doctor
-description: a project with a background image
+title: Braille-Dristi
+description: a project with no image
 img:
-importance: 3
+importance: 4
 category: Competition
 ---
 

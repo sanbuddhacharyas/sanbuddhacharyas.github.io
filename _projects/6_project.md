@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: AI Chess Playing robot
+description: Built a robot to play chess physically with a human. Each move is generated using the alpha-beta pruning algorithm. Computer vision is used for the detection of the board position.
 img:
-importance: 4
-category: fun
+importance: 3
+category: Competition
 ---
 
 Every project has a beautiful feature showcase page.
