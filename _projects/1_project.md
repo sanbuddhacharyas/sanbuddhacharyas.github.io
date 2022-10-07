@@ -22,7 +22,7 @@ estimation, K-Means, XGBoost, Python, PyTorch, TensorFlow, Open-CV, NumPy, SciPy
 
 <div class="myvideo">
    <center>
-   <video  style="display:block; width:35%; height:auto;" autoplay controls loop="loop">
+   <video  style="display:block; width:35%; height:auto;" controls loop="loop">
        <source src="https://drive.google.com/uc?export=download&id=1xHyM1azTvdIVtSgsiyrCpc6I4tyl2GkQ" type="video/mp4" />
 
    </video>
