@@ -17,7 +17,7 @@ estimation, K-Means, XGBoost, Python, PyTorch, TensorFlow, Open-CV, NumPy, SciPy
 </center>
 
 <center>
-<p style="font-size:20px"> <b>Our Product used my MoJ App. </b></p>
+<p style="font-size:20px"> <b>Our Product used by MoJ App. </b></p>
 </center>
 
 <div class="myvideo">
