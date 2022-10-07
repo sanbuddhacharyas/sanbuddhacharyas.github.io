@@ -11,12 +11,14 @@ category: Competition
 <p style="font-size:20px"> <b>YR-ARM Version-1. </b></p>
 </center>
 
+<div class="myvideo">
+   <center>
+   <video  style="display:block; width:35%; height:auto;" controls loop="loop">
+       <source src="https://drive.google.com/uc?export=download&id=1ZI29-g1JQARcdBJR4ennNYavTX-hYLVI" type="video/mp4" />
 
-<center>
-<video controls>
-<source src="https://drive.google.com/file/d/1k5FyWfHOj7unUkLjttFwvcFHZ4nK8VOb/view?usp=sharing" type="video/mp4">
-</video>
-</center>
+   </video>
+   </center>
+</div>
 
 <br />
 
@@ -34,14 +36,14 @@ category: Competition
    </center>
 </div>
 
-<center>
-<video controls>
-<source src="https://drive.google.com/uc?export=download&id=14zvPvW7zOC2Fzhdq5YGgivqhiXzF-UdW" type="video/mp4">
-</video>
-<video controls>
-<source src="https://drive.google.com/uc?export=download&id=11tb_s_oQR4F8zhDNJOTp5nk5U4m0Si9W" type="video/mp4">
-</video>
-</center>
+<div class="myvideo">
+   <center>
+   <video  style="display:block; width:35%; height:auto;" controls loop="loop">
+       <source src="https://drive.google.com/uc?export=download&id=1QTXsd3KQGfnrsR-QtBmMfEtYkqH8C6fK" type="video/mp4" />
+   </video>
+   </center>
+</div>
+
 
 <center>
 <p style="font-size:20px"> <b>Hardwork Pay's off  </b></p>
