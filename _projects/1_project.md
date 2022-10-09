@@ -13,10 +13,6 @@ Most people wants to buy the same product that they see in the movies and tik-to
 estimation, K-Means, XGBoost, Python, PyTorch, TensorFlow, Open-CV, NumPy, SciPy.
 
 <center>
-<p style="font-size:20px">I am open to integrate <em>"Video to Online shopping"</em> into your business.<b> </b></p>
-</center>
-
-<center>
 <p style="font-size:20px"> <b>Our Product used by MoJ App. </b></p>
 </center>
 
