@@ -98,79 +98,91 @@
 - title: Projects
   type: time_table
   contents:
-    - title: Video to Online shopping/ Video E-commerce (Selcouth Technology)
+    - title: Automatic UV Wrapping Tool (Artlabs)
+      year: July 2022-Sept 2022
+      description:
+      - Wrapping the best appropriate texture from all possible images to a 3D mesh mitigating the modeler's burden for searching, cropping (using Photoshop), or aligning the image with a 2D UV map.
+      - <b>Technologies used:</b> Image segmentation, Image Classification, Homographic transformations, Image painting, Image blending, Linux, Python, Open3D, OpenCV, Tensorflow, Scikit-Learn, Meshlab
+
+    - title: 3D Reconstruction of Apartment (Artlabs)
+      year: April 2022-July 2022
+      description:
+      - Full 3D reconstruction of the apartment using a series of RGB and depth maps.
+      - <b>Technologies used:</b> COLMAP, SIFT algorithm, Neural Radiance Field(NeRF), Nice-Slam, Open3D, Tensorflow imageio, matplotlib, C++, Python
+
+    - title: <a href="https://sanbuddhacharyas.github.io/projects/1_project/">Video to Online shopping / Video E-commerce</a> (Selcouth Technology)
       year:  Oct 2021-March 2022
       description:
       - Matched the clothes from MoJ, TikTok videos, and movies to similar items in an online shop (Flipkart and Amazon).
         Similar (category, color, pattern) product ads as video items were recommended from an online shop.
-      - Technologies used; Convolutional Neural Network (CNN), Object Detection, Human Tracking, Siamese Network, Pose
+      - <b>Technologies used:</b> Convolutional Neural Network (CNN), Object Detection, Human Tracking, Siamese Network, Pose
         estimation, K-Means, XGBoost, Python, PyTorch, TensorFlow, Open-CV, NumPy, SciPy.
 
-    - title: AI Voice Clone (Freelancing)
+    - title: <a href="https://sanbuddhacharyas.github.io/projects/2_project/">AI Voice Clone</a> (Freelancing)
       year:  June 2021-Oct 2021
       description: 
         - Human voice cloning using RNN Model and Neural Vocoder. Experimented with the Joe Rogan voice.
-        - Technologies used NLP, RNN, Python Language, TensorFlow, Pyaudio, NumPy, scikit-learn.
+        - <b>Technologies used:</b> NLP, RNN, Python Language, TensorFlow, Pyaudio, NumPy, scikit-learn.
 
     - title: Supervised monocular depth estimation using single Image (Major Project College)
       year: March 2020-May 2021
       description:
         - Designed a CNN architecture to estimate a depth map from a single RGB image.
-        - Technologies used Convolutional Neural Network, Attention Mechanism, Python, TensorFlow, Open-CV, NumPy.
+        - <b>Technologies used:</b> Convolutional Neural Network, Attention Mechanism, Python, TensorFlow, Open-CV, NumPy.
         
     - title: Bigdata stock market analysis and prediction using LSTM (Big data project)
       year: Feb 2021-April 2021
       description:
         - Statistically visualized the stock market data and built a simple LSTM model to predict a closing price.
-        - Technologies used LSTM, RNN, Python, Pandas, Seaborn.
+        - <b>Technologies used:</b> LSTM, RNN, Python, Pandas, Seaborn.
 
     - title: Continuous authentication of smartphone-based on human behavioral patterns using mobile sensors (Freelancing)
       year: March 2020-Nov 2020
       description:
         - Designed a machine learning pipeline to predict legitimate or intruders from the human behavioral patterns using
           continuous mobile sensors (accelerometer and gyroscope).
-        - Technologies used Smartphone accelerometer, gyroscope, 1D-CNN, Xgboost, Python, TensorFlow, Pandas, NumPy.
+        - <b>Technologies used:</b> Smartphone accelerometer, gyroscope, 1D-CNN, Xgboost, Python, TensorFlow, Pandas, NumPy.
 
     - title: Arrhythmia prediction Using Convolutional Neural Network (Personal Project)
       year: Aug 2019-Dec 2019
       description:
         - Proposed a 2D-CNN classification model to classify seven different types of Arrhythmia.
-        - Technologies used AD8232 ECG sensor, Arduino, CNN, Python, Scikit-learn, Keras, Numpy.
+        - <b>Technologies used:</b> AD8232 ECG sensor, Arduino, CNN, Python, Scikit-learn, Keras, Numpy.
 
-    - title: Agro-Doctor (Instrumentational Project)
+    - title: <a href="https://sanbuddhacharyas.github.io/projects/5_project/">Agro-Doctor</a> (Instrumentational Competition Project)
       year: Jan 2019-May 2019
       description:
         - Built an agricultural robot, that monitors the field, recognizes environmental variables, and diagnoses the health
           conditions of plants with leaf images and a CNN classifier.
-        - Technologies used AVR, Computer vision, Object detection, VGG-16 classifier.
+        - <b>Technologies used:</b> AVR, Computer vision, Object detection, VGG-16 classifier.
 
-    - title: Health Care (Freelancing)
+    - title: Health Care (College Minor Project)
       year: Jan 2019-June 2019
       description:
         - Built a device that measures 20 different body parameters such as (Blood pressure, Heartbeat, Weight, Height, Fat,
           BMI, Muscular muscles, ECG, etc. ). It stores each person's data, weekly in the database(MongoDB) and analyzes those
           stored data to calculate the present health score and predicts the health risk of a person.
-        - Technologies used Arduino, sensors , Python, NumPy, Pandas, Seaborn, SciPy, scikit-learn
+        - <b>Technologies used:</b> Arduino, sensors , Python, NumPy, Pandas, Seaborn, SciPy, scikit-learn
     
-    - title: AI Chess Playing robot (LOCUS Project)
+    - title: <a href="https://sanbuddhacharyas.github.io/projects/6_project/">AI Chess Playing robot</a> (LOCUS Competition Project)
       year: Feb 2018-Aug 2018
       description:
         - Built a robot to play chess physically with a human. Each move is generated using the alpha-beta pruning algorithm.
           Computer vision is used for the detection of the board position.
-        - Technologies used Computer vision, Alpha-Beta Pruning, Blob detection , C++, Open-CV.
+        - <b>Technologies used:</b> Computer vision, Alpha-Beta Pruning, Blob detection , C++, Open-CV.
     - title: Stereo Matching and depth prediction using Siamese network (Personal Project)
       year: Jan 2018-March 2018
       description:
         - Built a robot to play chess physically with a human. Each move is generated using the alpha-beta pruning algorithm.
           Computer vision is used for the detection of the board position.
-        - Technologies used Computer vision, Alpha-Beta Pruning, Blob detection , C++, Open-CV.
-    - title: Braille-Dristi (AT-Hackathon)
+        - <b>Technologies used:</b> Computer vision, Alpha-Beta Pruning, Blob detection , C++, Open-CV.
+    - title: <a href="https://sanbuddhacharyas.github.io/projects/8_project/">Braille-Dristi robot</a> (AT-Hackathon Competition)
       year: July 2017-Nov 2017
       description:
         - Built a device that converts printed textbooks into braille format. It consists of a camera and processor which clicks
           the picture of the book and uses Optical character recognition (OCR) to converts images into text. The text is sent via
           UART communication in ASCII format to the braille printer.
-        - Technologies used Raspberry pi, Camera, Optical character recognition, Image processing, TTS, Python
+        - <b>Technologies used:</b> Raspberry pi, Camera, Optical character recognition, Image processing, TTS, Python
 
 - title: Honors and Awards
   type: time_table
@@ -192,7 +204,7 @@
         - Locus 2018 Open Hardware
         - Winner
     
-    - year: Feb 2016
+    - year: 2016
       items:
         - Institute of Engineering, Pulchowk Campus
         - Full Scholarship
