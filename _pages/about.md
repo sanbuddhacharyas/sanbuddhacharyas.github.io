@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <em>"AI is so easy to get started it’s ridiculous"</em>
 
@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a machine learning engineer keen to solve real-world challenges using `computer vision` and `machine learning`. I have completed my bachelor's degree in Electronics and Communication Engineering from Pulchowk Campus, Institute of Engineering, Tribhuvan University, Nepal. My interest is in object detection, object classification, image segmentation, image filtering, background removal, 3D vision, depth estimation, augmented reality, image similarity, color detection, human tracking, image blending, and recommendation systems.
+I am a machine learning engineer keen to solve real-world challenges using `computer vision` and `machine learning`. I have completed my bachelor's degree in Electronics and Communication Engineering with <i>`summa cum laude`</i> from Pulchowk Campus, Institute of Engineering, Tribhuvan University, Nepal. My interest is in object detection, object classification, image segmentation, image filtering, background removal, 3D vision, depth estimation, augmented reality, image similarity, color detection, human tracking, image blending, and recommendation systems.
 
 I have two years of working experience in the company. Recently, I am searching for a new position as a computer vision engineer. I have closely worked on projects such as monocular depth estimation, fashion image retrieval, music recommendation system, object recognization, tomato plant disease classification, arithmetic prediction, chess board tracker etc. Besides my work, I have won four national technological competitions.
 

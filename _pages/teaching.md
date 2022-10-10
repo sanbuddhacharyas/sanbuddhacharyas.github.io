@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: academic
+title: Academic
 description:
 nav: true
 nav_order: 5

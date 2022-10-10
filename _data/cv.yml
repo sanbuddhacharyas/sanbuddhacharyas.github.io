@@ -18,6 +18,15 @@
         - Aggregate 80.54%, Distinction
         - 7th ranked in the university
         - Top 1% in the university
+        - title: Computer Science Courseworks
+          contents:
+            - Computer Programming (C), Object Oriented Programming in C++, Discrete structure, Digital Logic, Computer Organization and Architecture, Computer Graphics, Embedded System, Computer Networks, Microprocessor, Project Mangement, Digital Signal Processing
+        - title: Artificial Intelligence Courseworks
+          contents:
+            - Artificial Intelligence, Big Data Technologies
+        - title: Mathematics Courseworks
+          contents:
+            - Linear Algebra, Probability & Statistics, Calculus I, Calculus II, Numerical Methods
 
 - title: Professional Experience
   type: time_table
@@ -44,8 +53,47 @@
       year: May 2021 - Aug 2021
       description:
         - Developed algorithms to transform data into useful, actionable information. 
+        - Was involved in the ETL pipeline and Data Analysis of US Healthcare data.
+        - Onboarded standardized data to Amazon Redshift data warehouse
+        - Performed research on data using SQL to make sure the product aggregates aligned with the client's reporting
         - Interpreted and analyzed data using statistical techniques. 
         - Standardized the data from several data sources by mapping fields into a common schema, matching member information across data sources, and standardizing vocabulary.
+
+    - title: Machine Learning Engineer
+      institution: ASMI, Mahalaxmisthan, Lalitpur, Nepal
+      year: Jan 2020-Nov 2020
+      description:
+        - Collected data from different sensors in a smartphone and hand-engineered to select required features.
+        - Developed an ML model to filter data and designed a CNN model to classify legitimate from an intruder. 
+        - Deployed the model developed using django on AWS.
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Research Assistant
+      institution: UGC Collaborative Research Grant, supervised by Dr. Sanjeeb Prasad Panday  
+      year: March 2020-May 2021
+      description:
+        - Conducted an experiment to find the depth from a single image. Compared the advantages of finding depth from a monocular images in comparison to Lidar, Kinect and stereo vision. Examined the possibility of generating the 3d point cloud from the drone images of disaster-stricken areas for surveillance. Published the research paper in the journal.
+
+
+- title: Leadership and Teaching Experience
+  type: time_table
+  contents: 
+    - title: Hardware Coordinator
+      institution: LOCUS, Pulchowk, Lalitpur, Nepal
+      year: Jan 2020 - Mar 2021
+      description:
+        - Successfully organized and planned hardware events, robot war competition (RoboWarz), drone racing competition (Dronacharya), and balloon popping robot competition (RoboPop). Conducted 3 days Locus 2020 hardware and instrumentation national-level project competition where more than 120 teams participated. Arranged sponsorship for hardware events and was able to collect about $8695.65 budget.
+        - Organized 15 days workshop and taught C, python, and arduino programming basics to more than 70 fresher students. Demonstrated the applications of arduino and python projects and encouraged the freshers to build their own projects. More than 35 fresher students participated in LOCUS 2020 competition making their own projects.
+        - Mentored three projects 1) Hand gesture recognition 2) Face recognition for door security 3) Medical drone service where the medical drone service project won an instrumentation title.
+      
+    - title: Teaching Assistant
+      institution: Nepal Applied Mathematics and Informatics Institute for Research (NAAMII), Jwagal, Lalitpur, Nepal 
+      year: Dec 2021
+      description:
+        - Instructed the participants in writing the deep learning code and setting up the deep learning frameworks (Tensorflow, Keras, and Opencv) in 3rd Nepal winter School in AI.
+        - Clarified the concepts of backpropagation, convolutional operation, pooling layers, activation function, etc to the novice group. Introduced the generative adversarial networks (GANs) to the advanced beginner group.
 
 - title: Projects
   type: time_table
@@ -139,9 +187,62 @@
       items: 
         - AT-Hackathon
         - 2nd Runner up
-    - year: July 2018
+    - year: Feb 2018 
       items: 
-        - Sirjana-The Innovation
+        - Locus 2018 Open Hardware
         - Winner
+    
+    - year: Feb 2016
+      items:
+        - Institute of Engineering, Pulchowk Campus
+        - Full Scholarship
 
+
+- title: Hard Skills
+  type: list
+  contents:
+    - <b>Programming Languages:</b> Python C, C++, Matlab, Javascript, SQL
+    - <b>Tools:</b> GitHub, Linux, AWS, GCP, Excel
+    - <b>Database:</b> MySQL, NoSQL, MongoDB, PostgreSQL
+    - <b>Frontend:</b> HTML, CSS, ReactJS, Bootstrap
+    - <b>Backend:</b> Django, Rest Framework, Flask, FastApi, Streamlite  
+    - <b>Frameworks:</b> Numpy, Scikit-learn, TensorFlow, Keras, PyTorch, Matplotlib, OpenCV, Open3D, Pandas, SciPy, Seaborn
+
+- title: Soft Skills
+  type: list
+  contents:
+    - Problem Solving, Creativity, Teamwork, Adaptability, Leadership, Good Communication, Time Management
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Computer Vision
+      items:
+        - 3D Reconstruction
+        - Augmented Reality
+        - Object Detection
+        - Object Classification
+        - Image Similarity
+        - Background Removal
+        - Image Segmentation
+        - Human Tracking
+        - Image Blending
+
+    - title: NLP
+      items:
+        - Voice Cloning
+        - Music Recommendation
+
+- title: Online Certificates
+  type: list
+  contents:
+    - <b>Python for Data Science, AI & Development</b> (8MWTPM47FPF)
+    - <b>Robotics Perception</b> (XCKTW4TTLNE3)
+    - <b>Convolutional Neural Networks</b> (EE9B9HUTVMMD)
+    - <b>Build Basic Generative Adversarial Networks (GANs)</b> (8TNGDUTHAJWB)
+    - <b>Sequence Models</b> (MFEZWC2JGPEK)
+    - <b>Databases and SQL for Data Science with Python</b> (HXBMQEJKFWHQ)
+    - <b>Fundamentals of Reinforcement Learning </b> (M3SWJ4EEWTRF)
+    - <b>Sample-based Learning Methods </b> (JZ5YAFTEQ4NJ)
+    - <b>Prediction and Control with Function Approximation</b> (8HC7EKKETXZE)
 
