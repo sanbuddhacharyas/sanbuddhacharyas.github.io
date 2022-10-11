@@ -2,7 +2,7 @@
 layout: page
 title: Agro-Doctor
 description: AGRO-DOCTOR is an agricultural robot that monitors our field, recognizes environmental variables and is intelligent enough to diagnose health condition of plants with Artificial intelligence (AI). 
-img:
+img: assets/img/agro_doctor/cover_img.png
 importance: 3
 category: Competition
 ---
@@ -17,66 +17,12 @@ plants and analysis it for better health condition. The data is used by differen
 - To minimize limitations and problems of traditional farming.
 - To make agriculture smarter, efficient and computerized.
 
-<center>
-<p style="font-size:20px"> <b>Demo of our robot. </b></p>
-</center>
 
-<div class="myvideo">
-   <center>
-   <video  style="display:block; width:35%; height:auto;" autoplay controls loop="loop">
-       <source src="https://drive.google.com/uc?export=download&id=1eq1lzGX56pLSunCvIJOSG7jsRw-dNmWq" type="video/mp4" />
-
-   </video>
-   </center>
-</div>
-<br />
-
-<b>Proposed Model</b>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agro_doctor/Agro_doctor_block_diagram.png" title="block_diagram" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<b>I. Introduction:</b> <br>
-Nepal is an agricultural country. But due to of laborious task,
-number of farmers are decreasing. Technology has touched
-every sector till date either it’s from building smartphones to
-satellites so, we came with the same concept-note of technology
-in Agriculture “AGRO-DOCTOR, an agricultural robot” for
-making agriculture smarter, efficient and computerized.
-
-<b>Stereo Camera:</b>
-A stereo camera is two
-cameras of the same type
-and specification set on a
-straight line against either
-the vertical or horizontal
-plane. The resulting “disparity map” is used to
-determine the distance of
-objects from camera.
-<div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/agro_doctor/stereo_camera.png" title="block_diagram" class="img-fluid rounded z-depth-1" %}
-</div>
-
-
-<b>Working of Robotic Arm</b>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agro_doctor/working_robotic_arm.png" title="block_diagram" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/agro_doctor/pid_control.png" title="block_diagram" class="img-fluid rounded z-depth-1" %}
-</div>
-
-
-<b>III. Methodology & System Setup</b>
-
-<div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/agro_doctor/agrodoctor-working.png" title="block_diagram" class="img-fluid rounded z-depth-1" %}
-</div>
+<p style="font-size:20px"> <b>My Contribution: </b></p>
+<b>Tomato Plant Disease Classification using Deep-learning</b><br>
+Detected the tomato plants using the YOLOv2 object detection model, extracted the leaves from the
+plant, applied different filtering techniques to remove the noise from the leaf images, and classified 10
+different diseases using a customized VGG-16 classification model.<br>
 
 <b>YOLOV2</b>
 YOLO is an extremely
@@ -101,12 +47,72 @@ regions.
     {% include figure.html path="assets/img/agro_doctor/classification_architecture.png" title="block_diagram" class="img-fluid rounded z-depth-1" %}
 </div>
 
+<b>Stereo Camera:</b>
+A stereo camera is two
+cameras of the same type
+and specification set on a
+straight line against either
+the vertical or horizontal
+plane. The resulting “disparity map” is used to
+determine the distance of
+objects from camera.
+<div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/agro_doctor/stereo_camera.png" title="block_diagram" class="img-fluid rounded z-depth-1" %}
+</div>
+
 Stereo vision camera is used to measure distance between robot
 and plant. After measurement YoLov2 model is used to detect
 tomato plants. Leaves are extracted from image of tomato plant
 and finally Alexnet CNN model is used for tomato plant disease
-classification.
+classification.<br>
 
+<center>
+<p style="font-size:30px"> <b>Demo of our robot. </b></p>
+</center>
+
+<div class="myvideo">
+   <center>
+   <video  style="display:block; width:35%; height:auto;" controls loop="loop">
+       <source src="https://drive.google.com/uc?export=download&id=1eq1lzGX56pLSunCvIJOSG7jsRw-dNmWq" type="video/mp4" />
+
+   </video>
+   </center>
+</div>
+<br />
+
+<b>Proposed Model</b>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/agro_doctor/Agro_doctor_block_diagram.png" title="block_diagram" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<b>I. Introduction:</b> <br>
+Nepal is an agricultural country. But due to of laborious task,
+number of farmers are decreasing. Technology has touched
+every sector till date either it’s from building smartphones to
+satellites so, we came with the same concept-note of technology
+in Agriculture “AGRO-DOCTOR, an agricultural robot” for
+making agriculture smarter, efficient and computerized.
+
+
+<b>Working of Robotic Arm</b>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/agro_doctor/working_robotic_arm.png" title="block_diagram" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/agro_doctor/pid_control.png" title="block_diagram" class="img-fluid rounded z-depth-1" %}
+</div>
+
+
+<b>III. Methodology & System Setup</b>
+
+<div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/agro_doctor/agrodoctor-working.png" title="block_diagram" class="img-fluid rounded z-depth-1" %}
+</div>
 
 <center>
 <p style="font-size:20px"> <b>Hardwork Pay's off  </b></p>
@@ -118,3 +124,8 @@ classification.
 <div class="col-sm mt-3 mt-md-0">
     {% include figure.html path="assets/img/agro_doctor/THE_TEAM.jpg" title="block_diagram" class="img-fluid rounded z-depth-1" %}
 </div>
+
+<br>
+<p style ="font-size:40p"><b>Poster Presentation:</b></p>
+
+<iframe src="/assets/pdf/Agro_doctor_poster.pdf" width="100%" height="500px"> </iframe>

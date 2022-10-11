@@ -2,7 +2,7 @@
 layout: page
 title: AI Chess Playing robot
 description: Built a robot to play chess physically with a human. Each move is generated using the alpha-beta pruning algorithm. Computer vision is used for the detection of the board position.
-img:
+img: assets/img/chess_game/cover_pic.png
 importance: 3
 category: Competition
 ---

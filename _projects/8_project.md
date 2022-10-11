@@ -2,7 +2,7 @@
 layout: page
 title: Braille-Dristi(vision)
 description: Built a device that converts printed textbooks into braille format. It consists of a camera and processor which clicks the picture of the book and uses Optical character recognition (OCR) to converts images into text. The text is sent via UART communication in ASCII format to the braille printer.
-img:
+img: assets/img/braill_dristi/IMG_20180609_155335.jpg
 importance: 4
 category: Competition
 ---
