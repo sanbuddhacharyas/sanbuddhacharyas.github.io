@@ -16,12 +16,16 @@ Tensorflow, imageio, matplotlib, C++, Python
 </center>
 
 <center>
-<video controls>
+<video width="320" height="240" controls>
 <source src="https://drive.google.com/uc?export=download&id=1nQY0uKDsueYE9fJTYk1_m68itgV46ElY" type="video/mp4">
 </video>
-<video controls>
+<video  width="320" height="240" controls>
 <source src="https://drive.google.com/uc?export=download&id=17Ge45ZQIBrUm_H6t5khnJOf4SDXB1tOZ" type="video/mp4">
 </video>
+<video  width="320" height="240" controls>
+<source src="https://drive.google.com/uc?export=download&id=1x0iUzd42jlev-7YiuM7WOZ4OXAuz-58-" type="video/mp4">
+</video>
+
 </center>
 
 <br />
