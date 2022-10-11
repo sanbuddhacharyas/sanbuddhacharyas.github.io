@@ -2,7 +2,7 @@
 layout: page
 title: AI Voice Clone
 description: Human voice cloning using RNN Model and Neural Vocoder. Experimented with the Joe Rogan voice.
-img:
+img: assets/img/voice_clone.png
 importance: 2
 category: work
 ---

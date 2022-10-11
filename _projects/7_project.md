@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Stereo Matching and depth prediction using Siamese network
-description: a project with no image
-img:
+description:
+img: assets/img/stereosetup.jpg
 importance: 4
 category: fun
 ---

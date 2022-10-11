@@ -2,7 +2,7 @@
 layout: page
 title:  Video to Online Shopping
 description: Matched the clothes from MoJ, TikTok videos, and movies to similar items in an online shop (Flipkart and Amazon). Similar (category, color, pattern) product ads as video items were recommended from an online shop.
-img:
+img: assets/img/video_to_online_shopping/title.png
 importance: 1
 category: work
 ---

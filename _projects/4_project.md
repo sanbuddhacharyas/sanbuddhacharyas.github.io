@@ -2,7 +2,7 @@
 layout: page
 title:  Arrhythmia prediction Using Convolutional Neural Network
 description:
-img:
+img: assets/img/arrhythmia.png
 importance: 3
 category: fun
 ---
