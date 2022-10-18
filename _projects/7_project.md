@@ -7,4 +7,5 @@ importance: 4
 category: fun
 ---
 
-<b>WORK IN PROGRESS</b>
+<p style="font-size:30px">Please find the report for stereo vision here:</p>
+<iframe src="/assets/pdf/stereo_vision.pdf" width="100%" height="500px"> </iframe>
