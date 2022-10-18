@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: <p style="font-size:20px"><b>Please open the project for more detail and working videos.</b></p>
+description: <b>Please open the project for more detail and working videos.</b>
 nav: true
 nav_order: 2
 display_categories: [work, Competition, College, fun]
