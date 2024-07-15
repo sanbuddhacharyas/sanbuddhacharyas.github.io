@@ -678,11 +678,13 @@ main {
     display: flex;
     justify-content: center;
     gap: 500px; /* Optional: Add space between the images */
+    
   }
 
   .work-section .about-img-box .about-img img {
       max-width:48%;
       height: auto;
+      padding-bottom: 10px;
   }
 
 
