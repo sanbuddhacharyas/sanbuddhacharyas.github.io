@@ -304,17 +304,32 @@ a {
     vertical-align: top;
     width: 10px;
     height: 10px;
+    border: 1px solid #fff;
     background: transparent;
-    border: 1px solid #12c2e9;
-    transition: ease all 0.55s;
+    transition: ease all 0.3s;
     border-radius: 50%;
     margin: 0 5px; }
+
+    .owl-dots .owl-dot {
+      vertical-align: top;
+      width: 10px;
+      height: 10px;
+      transition: background-color 0.3s ease; /* Smooth transition for background color */
+      border-radius: 50%;
+      margin: 0 5px;
+    }
+    
     .owl-dots .owl-dot.active {
       background: #12c2e9; }
 
 .owl-carousel .owl-item img {
   width: auto;
   max-width: 100%; }
+
+  .owl-dots .owl-dot:not(.active) {
+    background: rgba(255, 255, 255, 0.5); /* Light gray color for inactive dots */
+    border-color: rgba(255, 255, 255, 0.5); /* Match border color to background */
+  }
 
 /* effects 
 -------------------------------*/
@@ -669,6 +684,32 @@ main {
 
 /* Our Work
 ---------------------*/
+
+/* Our Work
+---------------------*/
+.work-box {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  border-radius: 15px;
+  overflow: hidden; }
+  .white-theme .work-box {
+    border: 1px solid rgba(41, 41, 41, 0.1);
+    background: rgba(255, 255, 255, 0.4); }
+  .work-box .work-info {
+    padding: 15px; }
+    .work-box .work-info .meta span {
+      font-weight: 600; }
+    .work-box .work-info h5 {
+      color: #fff;
+      margin: 5px 0 15px; }
+      .white-theme .work-box .work-info h5 {
+        color: #292929; }
+    .work-box .work-info p {
+      margin: 0 0 15px; }
+  .work-box .link-effect {
+    font-size: 12px; }
 
 @media (min-width: 768px) {
   .work-section .sticky-md-top {
@@ -1273,11 +1314,10 @@ main {
     background: rgba(255, 255, 255, 0.4); }
 
 
-.text-theme {
-  background: linear-gradient(to right, #12c2e9, #f64f59, #f64f59);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-}
+    .text-theme {
+      background: linear-gradient(to right, #12c2e9, #f64f59, #f64f59);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
   
 .typing-text {
   border-right: .15em solid #00FF33; /* cursor */
