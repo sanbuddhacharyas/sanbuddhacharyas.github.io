@@ -541,6 +541,27 @@ main {
 .home-section .home-intro .btn-bar {
   padding-top: 45px; }
 
+  /* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+  .home-section .home-intro .hs-exp {
+    flex-direction: column; /* Stack items vertically */
+    padding-top: 15px; /* Adjust padding for vertical layout */
+  }
+
+  .home-section .home-intro .hs-exp .exp-box {
+    flex: 1 1 100%; /* Each box takes full width of its parent */
+    padding-right: 0; /* Remove right padding */
+    padding-left: 0; /* Remove left padding */
+    margin-bottom: 20px; /* Add some space between boxes vertically */
+  }
+  
+
+  .home-section .home-intro .hs-exp .exp-box + .exp-box {
+    border-left: none; /* Remove border between stacked boxes */
+    padding-left: 0px;
+  }
+}
+
 /* About Section
 -------------------------------*/
 @media (min-width: 768px) {
@@ -714,6 +735,8 @@ main {
 @media (min-width: 768px) {
   .work-section .sticky-md-top {
     top: 120px; } }
+
+    
 
   .work-section .about-img-box {
     display: flex;
