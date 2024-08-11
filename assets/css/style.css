@@ -75,15 +75,21 @@ Primary use:    pxdraft
   @media (max-width: 991px) {
     .white-theme .main-header {
       background: rgba(255, 255, 255, 0.8); }
+
+    .white-theme .main-header .navbar-collapse{
+      text-align: right;
+    }
     .main-header .navbar-toggler {
-      display: -ms-flexbox;
       display: flex;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      flex-direction: column;
       border: none;
       padding: 4px 9px;
       outline: none;
-      box-shadow: none; }
+      box-shadow: none; 
+      position: absolute;
+      right: 15px;
+      top: 15px;
+    }
       .main-header .navbar-toggler span {
         width: 25px;
         height: 2px;
@@ -97,6 +103,7 @@ Primary use:    pxdraft
         margin: 8px 0; }
         .main-header .navbar-nav > li > .nav-link {
           color: #fff;
+          text-align: right;
           text-transform: uppercase;
           padding: 0;
           letter-spacing: 1px;
