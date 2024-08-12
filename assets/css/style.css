@@ -26,13 +26,26 @@ Primary use:    pxdraft
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 .main-header {
   position: fixed;
+  max-width: 100%;
   top: 0;
   left: 0;
   width: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
-  z-index: 111; }
+  z-index: 111; 
+  margin: 0 auto; 
+  padding: 0;
+  }
+
+  html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
   .white-theme .main-header {
     border-bottom: 1px solid rgba(41, 41, 41, 0.1); }
   .fixed-header .main-header {
@@ -73,6 +86,14 @@ Primary use:    pxdraft
       width: 100%;
       background-image: linear-gradient(to left, #12c2e9, #c471ed, #f64f59); } }
   @media (max-width: 991px) {
+    /* .main-header .container{
+      width: 100;
+      max-width: 100%; 
+      padding-left: 15px; 
+      padding-right: 15px;
+      overflow-x: hidden;
+      margin: 0 auto;
+    } */
     .white-theme .main-header {
       background: rgba(255, 255, 255, 0.8); }
 
@@ -408,8 +429,8 @@ main {
       padding-bottom: 80px; } }
   @media (max-width: 767px) {
     .section {
-      padding-top: 60px;
-      padding-bottom: 60px; } }
+      padding-top: 10px;
+      padding-bottom: 10px; } }
 
 /* Section Heading
 ---------------------*/
@@ -758,6 +779,7 @@ main {
       padding-bottom: 10px;
   }
 
+  
 
   .work-section .about-text .about-row {
   margin-bottom: 80px; }
