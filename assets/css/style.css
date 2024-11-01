@@ -303,8 +303,7 @@ a {
       border-radius: 50%;
       border: 5px solid #fff;
       border-color: #fff transparent #fff transparent;
-      -webkit-animation: lds-dual-ring 1.2s linear infinite;
-              animation: lds-dual-ring 1.2s linear infinite; }
+      }
 
 @-webkit-keyframes lds-dual-ring {
   0% {
